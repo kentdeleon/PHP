@@ -85,7 +85,7 @@
 		$scenario=$_POST['scenario'];
 		$descritpion = $_POST['description'];
 
-		$accounts=mysql_connect("198.91.81.8","kentdel2_root","p@ssw0rd") or die(mysql_error());
+		$accounts=mysql_connect("X","X","X") or die(mysql_error());
 
  		 mysql_select_db("kentdel2_pidb",$accounts);
 
