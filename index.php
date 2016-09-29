@@ -50,7 +50,7 @@
 					*/
 				$accounts=mysql_connect("X","X","X") or die(mysql_error());
 
-					mysql_select_db("kentdel2_pidb",$accounts);
+					mysql_select_db("X",$accounts);
 
 					$sql="SELECT DISTINCT LegacyName FROM pichannel  ORDER BY LegacyName";
 
@@ -112,15 +112,15 @@
 					
 					/*
 					$pdo = new PDO(
-					'mysql:host=198.91.81.8;dbname=kentdel2_pidb',
-					'kentdel2_root','p@ssw0rd'
+					'mysql:host=X;dbname=X',
+					'X','X'
 					);
 					
 					*/
 					
-					$accounts=mysql_connect("198.91.81.8","kentdel2_root","p@ssw0rd") or die(mysql_error());
+					$accounts=mysql_connect("X","X","X") or die(mysql_error());
 
-					mysql_select_db("kentdel2_pidb",$accounts);
+					mysql_select_db("X",$accounts);
 
 					$sql="SELECT * FROM pichannel WHERE LegacyName='$legacyname'";
 
